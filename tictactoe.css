@@ -1,0 +1,41 @@
+.board{
+width:372px;
+height:372px;
+margin:auto;
+margin-top:15%;
+}
+.square{
+  float:left;
+  background:rgba(255,255,255,.9);
+  width:122px;
+  height:122px;
+  border:1px solid black;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  cursor:pointer;
+  text-align:center;
+  font-size:100px;
+}
+.ex{
+  background-color:white;
+}
+.oh{
+  background-color:white;
+}
+body{
+  background:url(http://img08.deviantart.net/cdeb/i/2011/091/4/7/endless_tic_tac_toe_wallpaper_by_wuflux_biscuits-d3d07m5.jpg)no-repeat;
+  background-size:cover
+}
+.spacer{
+padding:5%;
+text-align:center;
+text-shadow:1px 1px 2px black, 0 0 1em black, 0 0 0.2 em black;
+color:black;
+font:comic sans-serif, sans-serif, helvetica;
+}
+.btn{
+-webkit-box-shadow: 3px 3px 5px 6px black;
+-moz-box-shadow: 3px 3px 5px 6px black;
+ box-shadow: 3px 3px 5px 6px black;
+}
